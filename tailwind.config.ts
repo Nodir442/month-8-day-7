@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        screens: {
+          window: "1280px",
+        },
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "rgba(63, 81, 181, 1)",
+        bgPrimayr: "rgba(238, 244, 255, 1)",
       },
     },
   },
